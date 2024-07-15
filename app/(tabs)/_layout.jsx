@@ -88,6 +88,22 @@ const TabsLayout = () => {
           ),
         }}
       />
+
+      <Tabs.Screen
+        name="upload"
+        options={{
+          href: null,
+          headerTitle: "Upload an Image"
+        }}
+      />
+
+      <Tabs.Screen
+        name="about"
+        options={{
+          href: null,
+          headerTitle: "About Us"
+        }}
+      />
     </Tabs>
   )
 }
