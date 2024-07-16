@@ -80,7 +80,7 @@ const Carousel = () => {
     };
 
     return (
-        <View className="relative">
+        <View>
             <FlatList
                 ref={flatListRef}
                 data={data}

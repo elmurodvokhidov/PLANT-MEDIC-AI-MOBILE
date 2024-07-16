@@ -4,7 +4,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 const TabsIcon = ({ icon, color, name, focused }) => {
   return (
-    <View className="flex items-center justify-center pt-2">
+    <View className="flex items-center justify-center py-2">
       <MaterialIcons name={icon} size={28} color={color} />
       <Text
         className={`${focused ? "font-nunitosemibold" : "font-nunitoregular"} text-xs`}
@@ -102,6 +102,24 @@ const TabsLayout = () => {
         options={{
           href: null,
           headerTitle: "About Us"
+        }}
+      />
+
+      <Tabs.Screen
+        name="signup"
+        options={{
+          href: null,
+          headerShown: false,
+          headerTitle: "Sign Up"
+        }}
+      />
+
+      <Tabs.Screen
+        name="signin"
+        options={{
+          href: null,
+          headerShown: false,
+          headerTitle: "Sign In"
         }}
       />
     </Tabs>
