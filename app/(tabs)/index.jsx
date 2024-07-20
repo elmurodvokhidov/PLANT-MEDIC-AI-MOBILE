@@ -33,7 +33,7 @@ const index = () => {
     ];
 
     return (
-        <SafeAreaView className="h-full bg-primary">
+        <SafeAreaView className="h-screen bg-primary">
             <ScrollView>
                 <View className="w-full h-[60vh] relative overflow-hidden">
                     <Image

@@ -9,7 +9,7 @@ const Signin = () => {
     const [showPassword, setShowPassword] = useState(false);
 
     return (
-        <SafeAreaView className="h-full bg-primary">
+        <SafeAreaView className="h-screen bg-primary">
             <ScrollView>
                 <Image
                     source={loginBackground}

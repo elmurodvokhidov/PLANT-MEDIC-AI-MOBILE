@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 const Cart = () => {
     return (
-        <SafeAreaView className="h-full bg-primary">
+        <SafeAreaView className="h-screen bg-primary">
             <ScrollView>
                 <View>
                     <Text>Cart</Text>

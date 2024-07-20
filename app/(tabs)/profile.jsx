@@ -5,7 +5,7 @@ import Signin from './signin';
 const Profile = () => {
 
     return (
-        <SafeAreaView className="h-full bg-primary">
+        <SafeAreaView className="h-screen bg-primary">
             <ScrollView>
                 <Signin />
             </ScrollView>
